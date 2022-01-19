@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+#container{
+    background: url('./../resources/background.jpg');
+    width:1000px;
+    height:550px;
+}
+#hero{
+    background: url('./../resources/1942.gif');
+    background-position: -85px -180px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy1{
+    background: url('./../resources/1942.gif');
+    background-position: -30px -10px;
+    width:28px;
+    height:16px;
+    position:absolute;
+}
+.enemy2{
+    background: url('./../resources/1942.gif');
+    background-position: -50px -60px;
+    width:25px;
+    height:20px;
+    position:absolute;
+}
+.bullet{
+    background: url('./../resources/1942.gif');
+    background-position: -185px -400px;
+    width:12px;
+    height:15px;
+    position:absolute;
+}
+.explotion{
+    background: url('./../resources/1942.gif');
+    background-position: -50px -395px;
+    width:20px;
+    height:30px;
+    position:absolute;
+}
+#score{
+    position:absolute;
+    border:10px solid red;
+    top:20px;
+    left:870px;
+    background-color:white;
+    padding:10px;
+    font-size:30px;
+    font-family: Arial;	
+}
